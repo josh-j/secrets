@@ -1,8 +1,12 @@
 keys:
-  - &primary age1q69cmwpvwh6xvd9ylpdjuhgw7veexct5t3q62j9vrqzs7pmr59tqwpwu3z
+  - &primary age1mzq5jd3xtdyldktqcaxtn2hde9k7a32d35f052nwf2ctuz2l5srsprjuen
 
 creation_rules:
   - path_regex: maas/secrets\.yaml$
+    key_groups:
+      - age:
+        - *primary
+  - path_regex: needl/secrets\.yaml$
     key_groups:
       - age:
         - *primary

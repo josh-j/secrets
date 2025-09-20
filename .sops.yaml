@@ -10,13 +10,10 @@ creation_rules:
     key_groups:
       - age:
         - *primary
-<<<<<<< HEAD
-=======
   - path_regex: deck00/secrets\.yaml$
     key_groups:
       - age:
         - *primary
->>>>>>> e45c6a6 (Add shared secrets and restructure for common secrets module)
   - path_regex: needl/secrets\.yaml$
     key_groups:
       - age:

@@ -1,5 +1,5 @@
 keys:
-  - &primary age1mzq5jd3xtdyldktqcaxtn2hde9k7a32d35f052nwf2ctuz2l5srsprjuen
+  - &primary age1q69cmwpvwh6xvd9ylpdjuhgw7veexct5t3q62j9vrqzs7pmr59tqwpwu3z
 
 creation_rules:
   - path_regex: shared/secrets\.yaml$

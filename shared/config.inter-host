@@ -1,0 +1,21 @@
+# Inter-host communication configuration
+Host maas
+    HostName maas.local
+    User sio
+    IdentityFile ~/.ssh/inter_host
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+
+Host deck00
+    HostName deck00.local
+    User sio
+    IdentityFile ~/.ssh/inter_host
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+
+Host needl
+    HostName needl.local
+    User sio
+    IdentityFile ~/.ssh/inter_host
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null

@@ -1,21 +1,35 @@
 # Inter-host communication configuration
 Host maas
-    HostName maas.local
+    HostName maas.home.joshej.dev
     User sio
     IdentityFile ~/.ssh/inter_host
     StrictHostKeyChecking no
     UserKnownHostsFile /dev/null
 
 Host deck00
-    HostName deck00.local
+    HostName deck00.home.joshej.dev
     User sio
     IdentityFile ~/.ssh/inter_host
     StrictHostKeyChecking no
     UserKnownHostsFile /dev/null
 
 Host needl
-    HostName needl.local
+    HostName needl.home.joshej.dev
     User sio
+    IdentityFile ~/.ssh/inter_host
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+
+Host sio-wpc
+    HostName sio-wpc.home.joshej.dev
+    User sio
+    IdentityFile ~/.ssh/inter_host
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+
+Host tetzui
+    HostName 100.89.78.1
+    User root
     IdentityFile ~/.ssh/inter_host
     StrictHostKeyChecking no
     UserKnownHostsFile /dev/null

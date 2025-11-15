@@ -1,20 +1,10 @@
 keys:
   - &primary age1q69cmwpvwh6xvd9ylpdjuhgw7veexct5t3q62j9vrqzs7pmr59tqwpwu3z
+  - &deck00_ssh age1hm3acgxva7axj0w3vq67fsn30xfa49wpxz9nggdjvx2ununm3gpqh7yvt5
 
 creation_rules:
-  - path_regex: shared/secrets\.yaml$
+  - path_regex: secrets\.yaml$
     key_groups:
       - age:
         - *primary
-  - path_regex: maas/secrets\.yaml$
-    key_groups:
-      - age:
-        - *primary
-  - path_regex: deck00/secrets\.yaml$
-    key_groups:
-      - age:
-        - *primary
-  - path_regex: needl/secrets\.yaml$
-    key_groups:
-      - age:
-        - *primary
+        - *deck00_ssh

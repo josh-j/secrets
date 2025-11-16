@@ -1,10 +1,12 @@
 keys:
   - &primary age1q69cmwpvwh6xvd9ylpdjuhgw7veexct5t3q62j9vrqzs7pmr59tqwpwu3z
   - &deck00_ssh age1hm3acgxva7axj0w3vq67fsn30xfa49wpxz9nggdjvx2ununm3gpqh7yvt5
+  - &sio-wpc_ssh age1tp2erh25xsr9w4vunvq55venp663pqqyqvazjents8e5a40sdcgs3tnvu8
 
 creation_rules:
   - path_regex: secrets\.yaml$
     key_groups:
       - age:
-        - *primary
-        - *deck00_ssh
+          - *primary
+          - *deck00_ssh
+          - *sio-wpc_ssh

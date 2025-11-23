@@ -1,6 +1,6 @@
 $TTL 3600
 @   IN SOA home.joshej.dev. hostmaster.home.joshej.dev. (
-        20250205 ; serial
+        20250254 ; serial
         3600     ; refresh
         900      ; retry
         604800   ; expire
@@ -9,3 +9,17 @@ $TTL 3600
     IN NS deck00.home.joshej.dev.
 @   IN A 192.168.2.2
 deck00 IN A 192.168.2.2
+grafana IN A 192.168.2.2
+homeassistant IN A 192.168.2.2
+nextcloud IN A 192.168.2.2
+immich IN A 192.168.2.2
+plex IN A 192.168.2.2
+overseerr IN A 192.168.2.2
+radarr IN A 192.168.2.2
+sonarr IN A 192.168.2.2
+lidarr IN A 192.168.2.2
+sabnzbd IN A 192.168.2.2
+prometheus IN A 192.168.2.2
+loki IN A 192.168.2.2
+promtail IN A 192.168.2.2
+alertmanager IN A 192.168.2.2

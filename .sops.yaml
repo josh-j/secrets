@@ -25,6 +25,8 @@ creation_rules:
     key_groups:
       - age:
           - *primary
+          - *deck00_ssh
+          - *deck00_uefi_ssh
           - *sio-wpc_ssh
 
   - path_regex: hosts/.*\.yaml$

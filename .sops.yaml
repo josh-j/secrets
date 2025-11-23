@@ -5,6 +5,36 @@ keys:
   - &sio-wpc_ssh age1tp2erh25xsr9w4vunvq55venp663pqqyqvazjents8e5a40sdcgs3tnvu8
 
 creation_rules:
+  - path_regex: common\.yaml$
+    key_groups:
+      - age:
+          - *primary
+          - *deck00_ssh
+          - *deck00_uefi_ssh
+          - *sio-wpc_ssh
+
+  - path_regex: servers\.yaml$
+    key_groups:
+      - age:
+          - *primary
+          - *deck00_ssh
+          - *deck00_uefi_ssh
+          - *sio-wpc_ssh
+
+  - path_regex: personal\.yaml$
+    key_groups:
+      - age:
+          - *primary
+          - *sio-wpc_ssh
+
+  - path_regex: hosts/.*\.yaml$
+    key_groups:
+      - age:
+          - *primary
+          - *deck00_ssh
+          - *deck00_uefi_ssh
+          - *sio-wpc_ssh
+
   - path_regex: secrets\.yaml$
     key_groups:
       - age:

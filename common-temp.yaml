@@ -1,0 +1,20 @@
+api_github: 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
+api_openai: your-openai-key
+api_openai_rag: AIzaSyCMqqUSHyEghWHFLzM7xbtV7XzUwQcAZ4g
+api_anthropic: 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
+api_openrouter: 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
+api_tavily: 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
+api_gemini: AIzaSyCMqqUSHyEghWHFLzM7xbtV7XzUwQcAZ4g
+email_public: 1652991+josh-j@users.noreply.github.com
+misc_name: Joshua Johnson
+misc_latitude: "49.323699999"
+misc_longitude: "7.340243999"
+ssh_inter_host_private_key: |-
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACCC6zAV7hnv1dufou8aK2FDdUBU+Shx0Tgh8MADett2zQAAAKAx0V9kMdFf
+    ZAAAAAtzc2gtZWQyNTUxOQAAACCC6zAV7hnv1dufou8aK2FDdUBU+Shx0Tgh8MADett2zQ
+    AAAEAbt0WW+WD8POL3ENqIJzSbmM+ONNhzoGtIrDmiFBAwm4LrMBXuGe/V25+i7xorYUN1
+    QFT5KHHROCHwwAN623bNAAAAGGludGVyLWhvc3QtY29tbXVuaWNhdGlvbgECAwQF
+    -----END OPENSSH PRIVATE KEY-----
+ssh_inter_host_public_key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIILrMBXuGe/V25+i7xorYUN1QFT5KHHROCHwwAN623bN inter-host-communication

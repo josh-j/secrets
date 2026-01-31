@@ -13,6 +13,7 @@ creation_rules:
           - *deck00_ssh
           - *deck00_uefi_ssh
           - *sio-wpc_ssh
+          - *maas_ssh
 
   - path_regex: servers\.yaml$
     key_groups:
@@ -30,6 +31,7 @@ creation_rules:
           - *deck00_ssh
           - *deck00_uefi_ssh
           - *sio-wpc_ssh
+          - *maas_ssh
 
   - path_regex: hosts/.*\.yaml$
     key_groups:
@@ -38,6 +40,7 @@ creation_rules:
           - *deck00_ssh
           - *deck00_uefi_ssh
           - *sio-wpc_ssh
+          - *maas_ssh
 
   - path_regex: secrets\.yaml$
     key_groups:

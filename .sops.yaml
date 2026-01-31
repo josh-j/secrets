@@ -46,3 +46,4 @@ creation_rules:
           - *deck00_ssh
           - *deck00_uefi_ssh
           - *sio-wpc_ssh
+          - *maas_ssh
